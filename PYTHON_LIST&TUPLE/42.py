@@ -1,0 +1,7 @@
+print("42.	Create a tuple of numbers and convert it into a list, then add three new numbers.")
+numbers_tuple = (1, 2, 3, 4, 5)
+numbers_list = list(numbers_tuple)
+print("Original tuple:", numbers_tuple)
+print("Converted list:", numbers_list)
+numbers_list.extend([6, 7, 8])
+print("List after adding three new numbers:", numbers_list)
